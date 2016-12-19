@@ -9,11 +9,11 @@
 
 
 .container{
-  ////outline: 1px solid blue;
+  
 }
 
 .container-fluid {
-   ////outline: 1px solid red;
+   
     padding-right: 10px;
    padding-left: 10px;  
 
@@ -136,6 +136,7 @@
 }
 
 .col-xs-5 {
+  : 3px solid blue;
   -webkit-flex-basis: 41.667%;
   -ms-flex-preferred-size: 41.667%;
   flex-basis: 41.667%;
@@ -143,6 +144,7 @@
 }
 
 .col-xs-6 {
+  //: 3px solid red;
   -webkit-flex-basis: 50%;
   -ms-flex-preferred-size: 50%;
   flex-basis: 50%;
@@ -375,7 +377,7 @@
   }
 
   .col-sm-3 {
-    //outline: 1px solid red;
+ 
     -webkit-flex-basis: 25%;
     -ms-flex-preferred-size: 25%;
     flex-basis: 25%;
@@ -383,7 +385,7 @@
   }
 
   .col-sm-4 {
-  //outline: 1px solid blue;
+  
     -webkit-flex-basis: 33.333%;
     -ms-flex-preferred-size: 33.333%;
     flex-basis: 33.333%;
@@ -407,7 +409,7 @@
   }
 
   .col-sm-7 {
-     //outline: 1px solid red;
+   
     -webkit-flex-basis: 58.333%;
     -ms-flex-preferred-size: 58.333%;
     flex-basis: 58.333%;
@@ -415,7 +417,7 @@
   }
 
   .col-sm-8 {
-      //outline: 1px solid green;
+     
     -webkit-flex-basis: 66.667%;
     -ms-flex-preferred-size: 66.667%;
     flex-basis: 66.667%;
@@ -625,7 +627,7 @@
   }
 
   .col-md-2 {
-   // //outline: 1px solid red;
+   // ////: 1px solid red;
     -webkit-flex-basis: 16.667%;
     -ms-flex-preferred-size: 16.667%;
     flex-basis: 16.667%;
@@ -633,7 +635,7 @@
   }
 
   .col-md-3 {
-    ////outline: 1px solid blue;
+    //////: 1px solid blue;
     -webkit-flex-basis: 25%;
     -ms-flex-preferred-size: 25%;
     flex-basis: 25%;
@@ -641,7 +643,7 @@
   }
 
   .col-md-4 {
-    //outline: 1px solid green;
+    ////: 1px solid green;
     -webkit-flex-basis: 33.333%;
     -ms-flex-preferred-size: 33.333%;
     flex-basis: 33.333%;
@@ -649,7 +651,7 @@
   }
 
   .col-md-5 {
-    //outline: 1px solid red;
+    //: 2px solid red;
     -webkit-flex-basis: 41.667%;
     -ms-flex-preferred-size: 41.667%;
     flex-basis: 41.667%;
@@ -657,7 +659,7 @@
   }
 
   .col-md-6 {
-   ////outline: 1px solid;
+   //: 2px solid green;
     -webkit-flex-basis: 50%;
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
