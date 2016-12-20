@@ -302,13 +302,13 @@ nav {
 }
 
 .card{
-	outline: 1px solid red;
 	padding: 0 10px;
 	width: 100%;
 	}
 
 	.card img{
 		width: 100%;
+		padding-top: 10px;
 	}
 
 
@@ -483,6 +483,10 @@ nav {
   	flex-wrap: wrap;
   }
 
+  .statya-img-bottom{
+  	padding-top: 10px;
+  }
+
 .social-content{
 	padding-top: 105px;
 	display: -webkit-flex;
@@ -606,7 +610,6 @@ footer{
 /*MEDIA SCREENS*/
 @media only screen and (min-width: 481px){
 	.card{
-	outline: 1px solid red;
 	padding: 0 10px;
 	width: 50%;
 	}
@@ -635,14 +638,7 @@ footer{
 	.top-h1{
 		font-size: 22px;
 	}
-
-
-
-
-	
 }
-
-
 
 @media only screen and (min-width: 768px) {	
 	.container{
@@ -650,11 +646,7 @@ footer{
 	}
   .container-fluid{
   	width: 100%;
-  }
-
-
-
-	
+  }	
  
 }
 
@@ -678,16 +670,12 @@ footer{
 	background-color: rgba(131, 131, 131, 1);
 	
 }
-
-
  
  }
 
  @media only screen and (min-width: 1024px) {
 
-
 .card{
-	outline: 1px solid red;
 	padding: 0 10px;
 	width: 25%;
 	}
@@ -715,16 +703,6 @@ footer{
 .card div{
 	overflow: hidden;
 }
-
-  .statya-img-bottom img{
-padding: 0 10px;
-	width: 25%;
-}
-
- .statya-img-bottom div,  .statya-img-bottom img{
-		height: 100%;
-		width: auto;
-	}
 
 
   .container {
@@ -784,16 +762,16 @@ padding: 0 10px;
   }
 
   .sub-menu {
-    z-index: 30;
-  list-style:none;
-  position:absolute;
-  display: none;
-	width: 1200px;
- /* left:-9999px; */
-   padding-top: 10px;
-   background-color: #7d8cde;
-  left: -600px;
-  margin-top: 12px;
+	  z-index: 30;
+	  list-style:none;
+	  position:absolute;
+	  display: none;
+	  width: 1200px;
+	 /* left:-9999px; */
+	  padding-top: 10px;
+	  background-color: #7d8cde;
+	  left: -600px;
+	  margin-top: 12px;
 }
  
  }  
